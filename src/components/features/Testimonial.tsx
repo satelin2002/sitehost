@@ -8,8 +8,9 @@ export function Testimonial() {
           Join thousands of satisfied users
         </h3>
         <p className="text-sm sm:text-base text-gray-600">
-          "Site Host has revolutionized our web deployment process. It's
-          incredibly easy to use and the performance is outstanding!"
+          &quot;Site Host has revolutionized our web deployment process.
+          It&apos;s incredibly easy to use and the performance is
+          outstanding!&quot;
         </p>
         <p className="text-sm sm:text-base text-gray-800 font-medium mt-2">
           - Jane Doe, Tech Innovators Inc.
