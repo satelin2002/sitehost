@@ -109,7 +109,7 @@ export function SignUpForm() {
         {/* Social login buttons */}
         <SocialLogin />
       </CardContent>
-      <CardFooter className="flex flex-col space-y-2 text-center">
+      <CardFooter className="flex flex-col space-y-4 text-center">
         <p className="text-sm text-gray-600 mt-4">
           Already have an account?{" "}
           <Link
@@ -123,14 +123,14 @@ export function SignUpForm() {
           By signing up, you agree to our{" "}
           <Link
             href="/terms"
-            className="font-medium text-primary hover:underline hover:underline-offset-2"
+            className="font-medium text-primary underline underline-offset-2"
           >
             Terms of Service
           </Link>{" "}
           and{" "}
           <Link
             href="/privacy"
-            className="font-medium text-primary hover:underline hover:underline-offset-2"
+            className="font-medium text-primary underline underline-offset-2"
           >
             Privacy Policy
           </Link>
