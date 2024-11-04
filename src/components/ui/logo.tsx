@@ -3,10 +3,10 @@ import React from "react";
 const Logo = () => {
   return (
     <svg
-      className="stroke-[0.5] dark:stroke-[0.4]"
+      className="stroke-[0.75] dark:stroke-[0.6]"
       fill="currentColor"
       height="32"
-      stroke="#ffffff"
+      stroke="#fbbf24"
       viewBox="0 0 32 32"
       width="32"
       xmlns="http://www.w3.org/2000/svg"

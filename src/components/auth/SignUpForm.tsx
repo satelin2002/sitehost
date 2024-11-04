@@ -51,9 +51,9 @@ export function SignUpForm() {
 
   return (
     <Card className="w-full max-w-md relative z-10">
-      <CardHeader className="space-y-1">
-        <div className="flex items-center space-x-2">
-          <Logo />
+      <CardHeader className="flex flex-col items-center text-center">
+        <Logo /> {/* Adding a bottom margin for spacing */}
+        <div className="mt-4 items-center space-x-2 text-center">
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">
             Welcome to Site Host
           </h1>
