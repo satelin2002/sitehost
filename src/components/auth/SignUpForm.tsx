@@ -42,7 +42,7 @@ export function SignUpForm() {
       } else {
         setIsVerificationSent(true);
       }
-    } catch (error) {
+    } catch {
       setError("An unexpected error occurred. Please try again.");
     } finally {
       setIsLoading(false);
